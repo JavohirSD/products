@@ -1,6 +1,6 @@
-Required:
-PHP version 8.1+
-NPM version 8.1+
+Required: <br />
+PHP version 8.1+<br />
+NPM version 8.1+<br />
 
 
 Vat value can be changed in "/config/vat.php" configuration file.
