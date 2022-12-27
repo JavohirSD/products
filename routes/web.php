@@ -24,7 +24,7 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/create', [ProductsController::class, 'create'])->name('create');
 Route::post('/store', [ProductsController::class, 'store'])->name('store');
-Route::post('/delete/{id}', [ProductsController::class, 'delete'])->name('delete');
+Route::get('/delete/{id}', [ProductsController::class, 'delete'])->name('delete');
 Route::get('/edit/{id}', [ProductsController::class, 'edit'])->name('edit');
 Route::post('/update/{id}', [ProductsController::class, 'update'])->name('update');
 

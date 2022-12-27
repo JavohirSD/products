@@ -43,4 +43,15 @@ class ProductsController extends Controller
             'products' => Products::with('user')->get()
         ]);
     }
+
+
+    public function delete($id)
+    {
+        $product = Products::find($id);
+        if($product){
+            $product->delete();
+        }
+
+        return Redirect::to('/home');
+    }
 }
