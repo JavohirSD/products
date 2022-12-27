@@ -2,29 +2,29 @@ Required: <br />
 PHP version 8.1+<br />
 NPM version 8.1+<br />
 
+<br /><br />
+Vat value can be changed in ```"/config/vat.php"``` configuration file.
 
-Vat value can be changed in "/config/vat.php" configuration file.
 
-
-
-After running seeders Admin user will be created with for testing.
-Email: admin@example.com
+<br /><br />
+After running seeders Admin user will be created with for testing.<br />
+Email: admin@example.com<br />
 Password: admin123
 
 
+<br /><br /><br />
+COMMANDS TO INSTALL PROJECT:<br />
 
-COMMANDS TO INSTALL PROJECT:
-
-composer update
-php artisan migrate
-php artisan db:seed
-php artisan db:seed --class=ProductsSeeder
-composer require laravel/ui
-php artisan ui bootstrap --auth
-npm install && npm run dev
+``composer update``<br />
+``php artisan migrate``<br />
+``php artisan db:seed``<br />
+``php artisan db:seed --class=ProductsSeeder``<br />
+``composer require laravel/ui``<br />
+``php artisan ui bootstrap --auth``<br />
+``npm install && npm run dev``<br />
 
 
-
-COMMAND FOR RUNNING TEST:
-
-php artisan test
+<br /><br /><br />
+COMMAND FOR RUNNING TEST:<br />
+<br />
+``php artisan test``<br />
