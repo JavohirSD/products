@@ -18,12 +18,19 @@ class ExampleTest extends TestCase
         $this->assertTrue(true);
     }
 
-    public function test_vat_price()
+    public function test_vat_price1()
     {
         $product = Products::where('status',1)->first();
 
         $expected = (float)(($product->quantity * $product->price) * (1 + Config::get('vat.vat_value')));
 
         $this->assertEquals($expected,$product->getVatPrice());
+    }
+
+    public function test_vat_price2()
+    {
+        $expected = (float)((2 * 5) * (1 + Config::get('vat.vat_value')));
+
+        $this->assertEquals($expected,30);
     }
 }

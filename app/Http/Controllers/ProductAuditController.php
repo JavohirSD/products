@@ -22,11 +22,11 @@ class ProductAuditController extends Controller
         }
 
         // Search data
-       $data = ProductsAudit::whereBetween('created_at',[$request->input('date1'),$request->input('date2')])->get()->toArray();
-        if($data){
+       $data = ProductsAudit::whereBetween('created_at',[$request->input('date1'),$request->input('date2')])->get();
+        if($data && count($data) > 0){
           return $this->success($data,'Data in this period');
        }
 
-       return $this->error(null,'No data found', Response::HTTP_NO_CONTENT);
+       return $this->error(null,'No data found');
     }
 }
