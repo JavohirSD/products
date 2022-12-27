@@ -3,11 +3,11 @@ PHP version 8.1+<br />
 NPM version 8.1+<br />
 
 <br /><br />
-Vat value can be changed in ```"/config/vat.php"``` configuration file.
+VAT value can be changed in ```"/config/vat.php"``` configuration file.
 
 
 <br /><br />
-After running seeders Admin user will be created with for testing.<br />
+After running seeders Admin user will be created for testing.<br />
 Email: admin@example.com<br />
 Password: admin123
 
