@@ -11,8 +11,11 @@ After running seeders Admin user will be created with for testing.<br />
 Email: admin@example.com<br />
 Password: admin123
 
+<br /><br />
+API Documentation:
+https://documenter.getpostman.com/view/9645611/2s8Z6x3E12
 
-<br /><br /><br />
+<br /><br />
 COMMANDS TO INSTALL PROJECT:<br />
 
 ``composer update``<br />
@@ -21,7 +24,7 @@ COMMANDS TO INSTALL PROJECT:<br />
 ``php artisan db:seed --class=ProductsSeeder``<br />
 ``composer require laravel/ui``<br />
 ``php artisan ui bootstrap --auth``<br />
-``npm install && npm run dev``<br />
+``npm install && npm run dev``
 
 
 <br /><br /><br />
