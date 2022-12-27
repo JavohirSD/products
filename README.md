@@ -22,8 +22,6 @@ COMMANDS TO INSTALL PROJECT AFTER CLONING:<br />
 ``php artisan migrate``<br />
 ``php artisan db:seed``<br />
 ``php artisan db:seed --class=ProductsSeeder``<br />
-``composer require laravel/ui``<br />
-``php artisan ui bootstrap --auth``<br />
 ``npm install && npm run dev``
 
 
