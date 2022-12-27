@@ -16,7 +16,7 @@ API Documentation:
 https://documenter.getpostman.com/view/9645611/2s8Z6x3E12
 
 <br /><br />
-COMMANDS TO INSTALL PROJECT:<br />
+COMMANDS TO INSTALL PROJECT AFTER CLONING:<br />
 
 ``composer update``<br />
 ``php artisan migrate``<br />
