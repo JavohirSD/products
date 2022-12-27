@@ -12,6 +12,13 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ProductAuditController extends Controller
 {
+    /**
+     * Find audit data in given period
+     *
+     * @param Request $request
+     *
+     * @return JsonResponse
+     */
     public function index(Request $request): JsonResponse
     {
         $user = User::where('email', $request->input('email'))->first();
